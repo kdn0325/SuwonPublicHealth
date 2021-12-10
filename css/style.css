@@ -3,7 +3,7 @@ body{font-family:Noto sans KR sans-serif; letter-spacing: -1px;}
 a{color: #333;}
 .container{width: 1250px; margin: 0 auto; position: relative;}
 
-#header{width: 100%; height: 166px; position: relative; top: 0; left: 0;}
+#header{width: 100%; height: 166px; position: relative; top: 0; left: 0; z-index: 999;}
 #header h1{width: 222px; height: 60px; position: absolute; top: 30px;}
 #search{width: 400px; height: 45px; position: relative; top: 30px; left: 420px; border: 2px solid #111; border-radius: 50px;}
 .search_input{border: none; float: left; width: 80%; height: 35px; margin-left: 16px; margin-top: 3px; padding: 0 0 4px 8px;}
@@ -29,3 +29,16 @@ a{color: #333;}
 .nav_gnb>li>.gnb_sub>li{margin-bottom: 6px; text-align: left;}
 .nav_gnb>li>.gnb_sub>li:first-child{margin-top: 20px;}
 .nav_gnb>li>.gnb_sub>li>a{display: inline-block; font-size: 15px; font-weight: 400; text-align: left; text-indent: 5px;}
+
+#contents{padding:60px 0}
+
+.banner1{float: left; width: 568px;}
+.banner2{width: 242px; height: 287px; margin-left: 30px; float: left;}
+.banner2 .box_img1{background: url(../img/m_platform_bgn.png) no-repeat; width: 100%; height: 187px; background-color: #ffe3e3; text-align: center; }
+.banner2 .box_img1 h2{text-align: center; font-weight: 600; color: #000; font-size: 22px; letter-spacing: -2px; padding-top: 20px;}
+.banner2 .box_img1 h2 span{font-family: 'Nanum Myeongjo', serif; display: block; font-weight: 700;}
+.banner2 .box_img1>span{display: block; width: 100px; margin: 70px auto 0; background: #fe7ca0; color: #fff; border-radius: 4px; line-height: 24px; font-size: 15px; text-align: center;}
+.banner2 .box_img2{background: url(../img/m_newsletter_bg.png) no-repeat; width: 100%; height: 92px; background-color: #253f8c; }
+.banner2 .box_img2 h2{color: #fff; font-size: 22px; font-weight: 500; padding: 15px;}
+.banner2 .box_img2 span{display: block; width: 84px; color: #fff; line-height: 20px; text-align: center; border: 1px solid #fff; font-size: 15px; border-radius: 4px; margin-left: 20px;}
+.banner3{float: right; width: 381px; height: 287px;}

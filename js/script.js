@@ -9,3 +9,19 @@ menu.on({mouseover:function(){
 },mouseleave:function(){
     $(this).find('.gnb_sub').css({backgroundColor:'#f3f4f8'})
 }})
+
+$('.bxslider1').bxSlider({
+    auto: true,
+    autoControls: true,
+    stopAutoOnClick: true,
+    pager: true,
+    slideWidth: 568
+  });
+$('.bxslider2').bxSlider({
+    auto: true,
+    autoControls: true,
+    stopAutoOnClick: true,
+    pager: true,
+    slideWidth: 381,
+    mode:'fade'
+  });
