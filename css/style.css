@@ -1,6 +1,6 @@
 @charset "utf-8";
 body{font-family:Noto sans KR sans-serif; letter-spacing: -1px;}
-a{color: #333;}
+a{color: #161616;}
 .container{width: 1250px; margin: 0 auto; position: relative;}
 
 #header{width: 100%; height: 166px; position: relative; top: 0; left: 0; z-index: 999;}
@@ -30,9 +30,10 @@ a{color: #333;}
 .nav_gnb>li>.gnb_sub>li:first-child{margin-top: 20px;}
 .nav_gnb>li>.gnb_sub>li>a{display: inline-block; font-size: 15px; font-weight: 400; text-align: left; text-indent: 5px;}
 
-#contents{padding:60px 0}
+#contents{width: 100%; padding:60px 0}
 
-.banner1{float: left; width: 568px;}
+.group1{height: 287px;}
+.banner1{float: left; width: 568px; height: 287px;}
 .banner2{width: 242px; height: 287px; margin-left: 30px; float: left;}
 .banner2 .box_img1{background: url(../img/m_platform_bgn.png) no-repeat; width: 100%; height: 187px; background-color: #ffe3e3; text-align: center; }
 .banner2 .box_img1 h2{text-align: center; font-weight: 600; color: #000; font-size: 22px; letter-spacing: -2px; padding-top: 20px;}
@@ -42,3 +43,55 @@ a{color: #333;}
 .banner2 .box_img2 h2{color: #fff; font-size: 22px; font-weight: 500; padding: 15px;}
 .banner2 .box_img2 span{display: block; width: 84px; color: #fff; line-height: 20px; text-align: center; border: 1px solid #fff; font-size: 15px; border-radius: 4px; margin-left: 20px;}
 .banner3{float: right; width: 381px; height: 287px;}
+.group2{width: 850px; margin-top: 30px; overflow: hidden; float: left;}
+.health_banner{width: 568px; float: left; margin-right: 30px;}
+.tab{position: relative; top: 0; left: 0; }
+.tab ul{}
+.tab ul li{float: left; }
+.tab ul li a{display: block; font-size: 19px; width: 105px; line-height: 37px; text-align: center;}
+.tab ul li::after{content: ""; display: block; clear: both;}
+.tab span{position: absolute; top: 4px; right: 0;}
+.tab span a{width: 20px; height: 20px; float: right;}
+.health_news{width: 100%; padding-top: 30px; float: left;}
+.health_news::after{content: ""; display: block; clear: both;}
+.health_news>a{display: inline-block;}
+.health_news ul{}
+.health_news ul li{width: 100%; position: relative; top: 0; left: 0; padding: 4px 0; overflow: hidden; border-bottom: 1px dotted #c7c8ca;}
+.health_news ul li::after{content: ""; display: block; clear: both;}
+.health_news ul li p{display: inline-block; float: left; background: #b4b2db; line-height: 23px; font-size: 13px; border-radius: 4px; color: #fff; width: 75px; text-align: center;}
+.health_news ul li a{float: left; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-left: 10px; display: block; width: 350px;}
+.health_news ul li span{float: right; color: #6d6d6d; font-size: 15px; padding-right: 10px; display: block; width: 70px; text-align: right;}
+.health_notice{width: 100%; padding-top: 30px; float: left; display: none;}
+.health_notice::after{content: ""; display: block; clear: both;}
+.health_notice>a{display: inline-block;}
+.health_notice ul{}
+.health_notice ul li{width: 100%; position: relative; top: 0; left: 0; padding: 4px 0; overflow: hidden; border-bottom: 1px dotted #c7c8ca;}
+.health_notice ul li::after{content: ""; display: block; clear: both;}
+.health_notice ul li p{display: inline-block; float: left; line-height: 23px; font-size: 13px; border-radius: 4px; color: #fff; width: 75px; text-align: center;}
+.health_notice ul li p.kwon{background: #5cb85c;}
+.health_notice ul li p.pal{background: #ff908b;}
+.health_notice ul li p.jang{background: #67c3d1}
+.health_notice ul li a{float: left; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-left: 10px; display: block; width: 350px;}
+.health_notice ul li span{float: right; color: #6d6d6d; font-size: 15px; padding-right: 10px;}
+.cardnews{width: 100%; padding-top: 30px; float: left; display: none;}
+.cardnews::after{content: ""; display: block; clear: both;}
+.cardnews>a{display: inline-block;}
+.cardnews ul{}
+.cardnews ul li{width: 100%; position: relative; top: 0; left: 0; padding: 4px 0; overflow: hidden; list-style: square;}
+.cardnews ul li::after{content: ""; display: block; clear: both;}
+.cardnews ul li a{float: left; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-left: 10px; display: block; width: 390px;}
+.cardnews ul li span{float: right; color: #6d6d6d; font-size: 15px; padding-right: 10px;}
+.health_box{width: 242px; float: left; position: relative; top: 0; left: 0;}
+.health_box h3{font-size: 20px; font-weight: 500; color: #000; border-bottom: 1px solid #e1e2e4;}
+.health_box>span{position: absolute; top: 4px; right: 0;}
+.health_box>span a{width: 20px; height: 20px; float: right;}
+.health_box_txt{float: left; overflow: hidden; margin-top: 10px;}
+.health_box_txt dt{ float: left; width: 49px; height: 49px; border: 1px solid #739a77; background: #739a77; border-radius: 100px; text-align: center; color: #fff; font-size: 15px; box-sizing: border-box;}
+.health_box_txt dd{float: right; width: 178px; line-height: 24px; font-size: 16px; margin-left: 15px;}
+.health_box_txt dd span{color: #0e571f; }
+.health_box>p{width: 100%; height: 38px; float: left; background: url(../img/main_tel_bg.gif) no-repeat; margin-top: 13px;}
+.health_box>p>a{display: block; line-height: 38px;}
+.health_box>p>a .tel_ico{background: url(../img/main_tel_icon.png) no-repeat; width: 30px; height: 30px; display: block; float: left; margin-top: 2px; margin-left: 30px;}
+.health_box>p>a>span{text-align: center; display: block; margin: 0 auto; color: #fff; padding-left: 14px; font-size: 16px;}
+.group3{width: 381px; float: right;}
+.icon_box{width: 100%; height: 410px;}
