@@ -33,8 +33,8 @@ tabmenu.click(function(){
     var tg = $(this)
     var i = tg.index()
 
-    tg.addClass('.active')
-    tabmenu.removeClass('.active')
+    tabmenu.removeClass('active')
+    tg.addClass('active')
 
     health_tab.css({display:'none'})
     health_tab.eq(i).css({display:'block'})
