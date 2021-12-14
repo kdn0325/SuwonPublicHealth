@@ -3,6 +3,8 @@ body{font-family:Noto sans KR sans-serif; letter-spacing: -1px;}
 a{color: #161616;}
 .container{width: 1250px; margin: 0 auto; position: relative;}
 
+
+/* HEADER */
 #header{width: 100%; height: 166px; position: relative; top: 0; left: 0; z-index: 999;}
 #header h1{width: 222px; height: 60px; position: absolute; top: 30px;}
 #search{width: 400px; height: 45px; position: relative; top: 30px; left: 420px; border: 2px solid #111; border-radius: 50px;}
@@ -22,19 +24,26 @@ a{color: #161616;}
 .arrow{margin-bottom: 2px;}
 .sub_top::after{content: ""; display: block; clear: both;}
 
+/* NAV */
 .nav_gnb{height: 57px; padding-top: 55px; }
 .nav_gnb>li{float: left; position: relative; padding: 19px 0; width: 208px; text-align: center;}
+.nav_gnb::after{content: ""; display: block; clear: both;}
 .nav_gnb>li>a{display: block; font-size: 21px; line-height: 18px; font-weight: 500; color: #161616;}
 .nav_gnb>li:hover{background: url(../img/gnb_blt.png) no-repeat center bottom;}
 .nav_gnb>li:hover>a{color: #253981;}
 .nav_gnb>li>.gnb_sub{position: absolute; width: 100%; top: 57px; display: none; border-right: 1px solid #d5d5d5; background-color: #f3f4f8;}
-.nav_gnb>li>.gnb_sub>li{margin-bottom: 6px; text-align: left;}
+.nav_gnb>li>.gnb_sub>li{margin-bottom: 6px; text-align: left; }
 .nav_gnb>li>.gnb_sub>li:first-child{margin-top: 20px;}
-.nav_gnb>li>.gnb_sub>li>a{display: inline-block; font-size: 15px; font-weight: 400; text-align: left; text-indent: 5px;}
+.nav_gnb>li>.gnb_sub>li:hover>a{color: #253981;}
+.nav_gnb>li>.gnb_sub>li>a{position: relative; display: inline-block; font-size: 15px; font-weight: 400; text-align: left; text-indent: 5px;}
+.nav_gnb>li>.gnb_sub>li>a::after{content: ""; display: block; position: absolute; bottom: -1px; right: 0; left: 0; height: 2px; background: #253981; border-radius: 1px; opacity: 0;}
+.nav_gnb>li>.gnb_sub>li>a:hover::after{opacity: 1;  transition: all .3s;}
 
+/* CONTENTS */
 #contents{width: 100%; padding:60px 0}
 #contents::after{content: ""; display: block; clear: both;}
 
+/* Banner */
 .group1{height: 287px;}
 .banner1{float: left; width: 568px; height: 287px;}
 .banner2{width: 242px; height: 287px; margin-left: 30px; float: left;}
@@ -48,6 +57,8 @@ a{color: #161616;}
 .banner3{float: right; width: 381px; height: 287px;}
 .group2{width: 850px; margin-top: 30px; overflow: hidden; float: left;}
 .health_banner{width: 568px; float: left; margin-right: 30px;}
+
+/* TAB */
 .tab{position: relative; top: 0; left: 0; }
 .tab ul{}
 .tab ul li{float: left; }
@@ -55,38 +66,47 @@ a{color: #161616;}
 .tab ul li::after{content: ""; display: block; clear: both;}
 .active a{color: #253981; border-bottom: 2px solid #51619a; font-weight: 500;}
 .tab span{position: absolute; top: 4px; right: 0;}
-.tab span a{width: 20px; height: 20px; float: right;}
+.tab span a{width: 20px; height: 20px; float: right; transition: all .5s;}
+.tab span a:hover{transform: rotate(180deg);}
+
+/* NOTICE1 */
 .health_news{width: 100%; padding-top: 30px; float: left;}
 .health_news::after{content: ""; display: block; clear: both;}
 .health_news>a{display: inline-block;}
-.health_news ul{}
 .health_news ul li{width: 100%; position: relative; top: 0; left: 0; padding: 4px 0; overflow: hidden; border-bottom: 1px dotted #c7c8ca;}
 .health_news ul li::after{content: ""; display: block; clear: both;}
 .health_news ul li p{display: inline-block; float: left; background: #b4b2db; line-height: 23px; font-size: 13px; border-radius: 4px; color: #fff; width: 75px; text-align: center;}
 .health_news ul li a{float: left; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-left: 10px; display: block; width: 350px;}
+.health_news ul li:hover a{text-decoration: underline; color: #000;}
 .health_news ul li span{float: right; color: #6d6d6d; font-size: 15px; padding-right: 10px; display: block; width: 70px; text-align: right;}
 .health_notice{width: 100%; padding-top: 30px; float: left; display: none;}
 .health_notice::after{content: ""; display: block; clear: both;}
 .health_notice>a{display: inline-block;}
-.health_notice ul{}
 .health_notice ul li{width: 100%; position: relative; top: 0; left: 0; padding: 4px 0; overflow: hidden; border-bottom: 1px dotted #c7c8ca;}
+.health_notice ul li:hover a{text-decoration: underline; color: #000;}
 .health_notice ul li p{display: inline-block; float: left; line-height: 23px; font-size: 13px; border-radius: 4px; color: #fff; width: 75px; text-align: center;}
 .health_notice ul li p.kwon{background: #5cb85c;}
 .health_notice ul li p.pal{background: #ff908b;}
 .health_notice ul li p.jang{background: #67c3d1}
 .health_notice ul li a{float: left; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-left: 10px; display: block; width: 350px;}
 .health_notice ul li span{float: right; color: #6d6d6d; font-size: 15px; padding-right: 10px;}
+
+/* NOTICE2 */
 .cardnews{width: 100%; padding-top: 30px; float: left; display: none;}
 .cardnews::after{content: ""; display: block; clear: both;}
 .cardnews>a{display: inline-block;}
 .cardnews ul{}
 .cardnews ul li{ width: 100%; position: relative; top: 0; left: 0; padding: 4px 0; overflow: hidden; border-bottom: 1px dotted #c7c8ca;}
 .cardnews ul li a{background: url(../img/notice_blt.gif) no-repeat 0px 10px; float: left; font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-left: 10px; display: block; width: 390px;}
+.cardnews ul li:hover a{text-decoration: underline; color: #000;}
 .cardnews ul li span{float: right; color: #6d6d6d; font-size: 15px; padding-right: 10px;}
+
+/* NOTICE3 */
 .health_box{width: 242px; float: left; position: relative; top: 0; left: 0;}
 .health_box h3{font-size: 20px; font-weight: 500; color: #000; border-bottom: 1px solid #e1e2e4;}
 .health_box>span{position: absolute; top: 4px; right: 0;}
-.health_box>span a{width: 20px; height: 20px; float: right;}
+.health_box>span a{width: 20px; height: 20px; float: right; transition: all .5s;}
+.health_box>span>a:hover{transform: rotate(180deg);}
 .health_box_txt{float: left; overflow: hidden; margin-top: 10px;}
 .health_box_txt dt{ float: left; width: 49px; height: 49px; border: 1px solid #739a77; background: #739a77; border-radius: 100px; text-align: center; color: #fff; font-size: 15px; box-sizing: border-box;}
 .health_box_txt dd{float: right; width: 178px; line-height: 24px; font-size: 16px; margin-left: 15px;}
@@ -95,10 +115,13 @@ a{color: #161616;}
 .health_box>p>a{display: block; line-height: 38px;}
 .health_box>p>a .tel_ico{background: url(../img/main_tel_icon.png) no-repeat; width: 30px; height: 30px; display: block; float: left; margin-top: 2px; margin-left: 30px;}
 .health_box>p>a>span{text-align: center; display: block; margin: 0 auto; color: #fff; padding-left: 14px; font-size: 16px;}
+
+/* icon_box */
 .group3{width: 381px;  height: 410px; float: right; margin-top: 30px;}
 .icon_box{width: 100%;}
 .icon_box li{position: relative; top: 0; left: 0; background: url(../img/main_icon_bg.gif) no-repeat; width: 127px; height: 137px; border-right:3px solid #fff; border-bottom:3px solid #fff; display: inline-block; float: left; box-sizing: border-box;}
 .icon_box li a{display: block; width: 100%; color: #fff; line-height: 20px; padding-bottom: 88px; text-align: center; float: left;}
+.icon_box li:hover{background: #4f82c2;}
 .icon_box li a span{display: block; width: 100%; font-size: 15px; font-weight: 500; position: absolute; top: 50%; left: 50%; transform: translate(-50%,100%); height: 20px; white-space: nowrap;}
 .icon_box .box_1>a{background: url(../img/m_icon01.png) no-repeat center 20px;}
 .icon_box .box_2>a{background: url(../img/m_icon05.png) no-repeat center 20px;}
@@ -110,6 +133,7 @@ a{color: #161616;}
 .icon_box .box_8>a{background: url(../img/m_icon08.png) no-repeat center 20px;}
 .icon_box .box_9>a{background: url(../img/m_icon09.png) no-repeat center 20px;}
 
+/* onclick_box */
 .onclick_box{width: 830px; float: left; margin-top: 28px;}
 .onclick_box h3{font-size: 20px; color: #000; margin-bottom: 12px;}
 .onclick_box ul li{width: 205px; height: 85px; float: left; border: 1px solid #e1e2e4; margin-right: 2px; box-sizing: border-box; position: relative;}
@@ -120,6 +144,7 @@ a{color: #161616;}
 .onclick_box ul li.bg_3{background: url(../img/oneclick_bg3.jpeg) no-repeat;}
 .onclick_box ul li.bg_4{background: url(../img/oneclick_bg4.jpeg) no-repeat;}
 
+/* footer */
 .footer_link{background: url(../img/footer_conbg.gif) repeat-x; width: 100%; height: 40px;}
 .footer_link::after{content: ""; display: block; clear: both;}
 .link_txt{height: 40px;}
