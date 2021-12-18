@@ -57,14 +57,18 @@ a{color: #161616;}
 
 .contents{}
 .contents_header{width: 970px; float: right; overflow: hidden; margin-top: 20px; font-weight: 500;}
+.contents_header::after{content: ""; display: block; clear: both;}
 .contents_header .header_title h3{font-size: 40px;}
 .contents_header .header_location{margin-top: 20px;}
 .header_location ul li{float: left;}
-.header_location ul li .home{background: url(../img/icon_home.png) no-repeat; width: 19px; height: 17px;}
+.header_location ul li .home{background: url(../img/icon_home.png) no-repeat 0 2px; width: 19px; height: 19px;}
 .header_location ul li a{display: inline-block; padding: 0 10px; color: #5d5d5d;}
 .header_location ul li a::after{content: ""; display: inline-block; background: url(../img/lnb_bul.png) no-repeat 100% 80%; width: 19px; height: 19px;}
 
 
+.contents_area{width: 970px; float: right; margin-bottom: 40px; padding-top: 40px; overflow: hidden;}
+.contents_area .org{position: relative; width: 100%; top: 0; left: 0;}
+.contents_area .org .main_top{background: url(../img/org_img.jpeg) no-repeat; padding: 60px 30px 0 30px; height: 241px;}
 
 
 
