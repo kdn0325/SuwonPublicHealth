@@ -6,7 +6,7 @@ a{color: #161616;}
 
 /* HEADER */
 
-#header{width: 100%; height: 166px; position: relative; top: 0; left: 0; z-index: 9998;}
+#header{width: 100%; height: 166px; position: relative; top: 0; left: 0; z-index: 9998; background: url(../img/index_common/header_bg.gif) no-repeat center top;}
 #header h1{width: 222px; height: 60px; position: absolute; top: 30px;}
 #search{width: 400px; height: 45px; position: relative; top: 30px; left: 420px; border: 2px solid #111; border-radius: 50px;}
 .search_input{border: none; float: left; width: 80%; height: 35px; margin-left: 16px; margin-top: 3px; padding: 0 0 4px 8px;}
@@ -21,7 +21,7 @@ a{color: #161616;}
 .box_img:last-child{border-left: 0;}
 .langage{width: 117px; float: left;  border: 1px solid #d5d5d5; height: 32px; box-sizing: border-box; margin-top: 6px; margin-left: 25px;}
 .select{padding: 0 5px; font-size: 16px;}
-.select::before{content: ""; display: inline-block; background: url(../img/te_ctrl3.gif) no-repeat; background-position: -65px 0; width: 19px; height: 19px; margin: 4px 2px 0 2px; font-size: 11px;}
+.select::before{content: ""; display: inline-block; background: url(../img/index_common/te_ctrl3.gif) no-repeat; background-position: -65px 0; width: 19px; height: 19px; margin: 4px 2px 0 2px; font-size: 11px;}
 .arrow{margin-bottom: 2px;}
 .sub_top::after{content: ""; display: block; clear: both;}
 
@@ -148,12 +148,12 @@ a{color: #161616;}
 .onclick_box ul li.bg_4{background: url(../img/oneclick_bg4.jpeg) no-repeat;}
 
 /* footer */
-.footer_link{background: url(../img/footer_conbg.gif) repeat-x; width: 100%; height: 40px;}
+.footer_link{background: url(../img/index_common/footer_conbg.gif) repeat-x; width: 100%; height: 40px;}
 .footer_link::after{content: ""; display: block; clear: both;}
 .link_txt{height: 40px;}
-.link_txt ul .info{background: url(../img/newlinkw.png) no-repeat bottom 15px right 0; text-align: left; float: left; padding-right: 20px; line-height: 200%; line-height: 40px;}
+.link_txt ul .info{background: url(../img/index_common/newlinkw.png) no-repeat bottom 15px right 0; text-align: left; float: left; padding-right: 20px; line-height: 200%; line-height: 40px;}
 .link_txt ul .info a{color: #fff; font-size: 14px;}
-.link_txt ul .link_shortcut{background: url(../img/icon_close.png) no-repeat 95% 9px; float: right; width: 176px; height: 40px; line-height: 40px; border-left: 1px solid #949494; border-right: 1px solid #949494; text-align: left; padding-left: 10px; box-sizing: border-box;}
+.link_txt ul .link_shortcut{background: url(../img/index_common/icon_close.png) no-repeat 95% 9px; float: right; width: 176px; height: 40px; line-height: 40px; border-left: 1px solid #949494; border-right: 1px solid #949494; text-align: left; padding-left: 10px; box-sizing: border-box;}
 .link_txt ul .link_shortcut a{color: #fff; font-size: 14px;}
 
 .addr_loca{padding: 20px 0; width: 100%; overflow: hidden;}
@@ -161,4 +161,4 @@ a{color: #161616;}
 .footer_addr .addr_loca ul li{float: left; width: 25%;}
 .footer_addr .addr_loca ul li dt{color: #000; font-weight: 500; letter-spacing: -1px;}
 .footer_addr .addr_loca ul li dl{color: #7a7a7a; font-size: 15px;}
-.copyright{font-size: 14px; color: #7a7a7a; margin-bottom: 30px;}
+.copyright{font

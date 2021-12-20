@@ -30,7 +30,7 @@ a{color: #161616;}
 .nav_gnb>li{float: left; position: relative; padding: 19px 0; width: 208px; text-align: center;}
 .nav_gnb::after{content: ""; display: block; clear: both;}
 .nav_gnb>li>a{display: block; font-size: 21px; line-height: 18px; font-weight: 500; color: #161616;}
-.nav_gnb>li:hover{background: url(../img/gnb_blt.png) no-repeat center bottom;}
+.nav_gnb>li:hover{background: url(../img/index_common/gnb_blt.png) no-repeat center bottom;}
 .nav_gnb>li:hover>a{color: #253981;}
 .nav_gnb>li>.gnb_sub{position: absolute; width: 100%; top: 57px; display: none; border-right: 1px solid #d5d5d5; background-color: #f3f4f8;}
 .nav_gnb>li>.gnb_sub>li{margin-bottom: 6px; text-align: left; }
@@ -76,7 +76,6 @@ a{color: #161616;}
 .contents_area .org .text1{color:#253981; font-size: 22px; font-weight: 500; text-align: center; padding: 0 30px 30px 30px;}
 .contents_area .org .text1::after{content: ""; display: block; background: url(../img/text_2_line.gif) no-repeat center center; margin-top: 30px; height: 2px;}
 .contents_area .org .text2{margin-top: 30px; line-height: 200%; font-size: 18px; text-align: center;}
-/* footer */
 /* footer */
 .footer_link{background: url(../img/index_common/footer_conbg.gif) repeat-x; width: 100%; height: 40px;}
 .footer_link::after{content: ""; display: block; clear: both;}
