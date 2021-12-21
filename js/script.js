@@ -1,6 +1,6 @@
 var menu = $('#nav>.nav_gnb>li')
 menu.on({mouseover:function(){
-    menu.find('.gnb_sub').css({height:'380px'}).slideDown()
+    menu.find('.gnb_sub').css({height:'400px'}).slideDown()
 },mouseleave:function(){
     menu.find('.gnb_sub').css({height:'0px',display:'none'})
 }})

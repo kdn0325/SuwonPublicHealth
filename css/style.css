@@ -20,7 +20,7 @@ a{color: #161616;}
 .font_box>.box_txt{color: #777;}
 .box_img:first-child{border-right: 0;}
 .box_img:last-child{border-left: 0;}
-.langage{width: 117px; float: left;  border: 1px solid #d5d5d5; height: 32px; box-sizing: border-box; margin-top: 6px; margin-left: 25px;}
+.langage{width: 117px; float: left;  border: 1px solid #d5d5d5; height: 32px; box-sizing: border-box; margin-top: 6px; margin-left: 15px;}
 .select{padding: 0 5px; font-size: 16px;}
 .select::before{content: ""; display: inline-block; background: url(../img/index_common/te_ctrl3.gif) no-repeat; background-position: -65px 0; width: 19px; height: 19px; margin: 4px 2px 0 2px; font-size: 11px;}
 .arrow{margin-bottom: 2px;}
@@ -31,7 +31,7 @@ a{color: #161616;}
 .nav_gnb>li{float: left; position: relative; padding: 19px 0; width: 208px; text-align: center;}
 .nav_gnb::after{content: ""; display: block; clear: both;}
 .nav_gnb>li>a{display: block; font-size: 21px; line-height: 18px; font-weight: 500; color: #161616;}
-.nav_gnb>li:hover{background: url(../img/gnb_blt.png) no-repeat center bottom;}
+.nav_gnb>li:hover{background: url(../img/index_common/gnb_blt.png) no-repeat center bottom;}
 .nav_gnb>li:hover>a{color: #253981;}
 .nav_gnb>li>.gnb_sub{position: absolute; width: 100%; top: 57px; display: none; border-right: 1px solid #d5d5d5; background-color: #f3f4f8;}
 .nav_gnb>li>.gnb_sub>li{margin-bottom: 6px; text-align: left; }
