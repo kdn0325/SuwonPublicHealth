@@ -72,7 +72,6 @@ a{color: #161616;}
 .contents_area{width: 970px; float: right; margin-bottom: 40px; padding-top: 40px; overflow: hidden;}
 .contents_area::after{content: ""; display: block; clear: both;}
 .contents_area>div{margin-bottom: 50px;}
-.contents_area .type3{}
 .contents_area .type3 .type_icon ol{width: 100%; display: inline-block;}
 .contents_area .type3 .type_icon li{float: left; width: 30%; padding-left: 30px; text-align: center; background: url(../img/step_arrow.png) no-repeat 10px 50%;}
 .contents_area .type3 .type_icon li:first-child{background: none;}
@@ -82,8 +81,11 @@ a{color: #161616;}
 .contents_area .type3 .type_icon li dl .icon2{background: url(../img/step_ico02.png) no-repeat 50% 10px;}
 .contents_area .type3 .type_icon li dl .icon3{background: url(../img/step_ico03.png) no-repeat 50% 10px;}
 .contents_area .type3 .type_icon li dl dd{padding-top: 100px; line-height: 23px; margin: 0 auto; font-weight: 500;}
+.contents_area .type4 ul>li>ul{margin-top: 10px; margin-bottom: 15px;}
+.contents_area .type4 ul>li>ul>li{margin: 5px 0; padding-left: 10px; background: url(../img/blt03.gif) no-repeat left 13px;}
+.contents_area .type6 ul.call{width: 100%;}
 .contents_area>div>h4{display: block; color: #333; background: url(../img/h4_bulit.png) no-repeat left 10px; font-size: 21px; text-align: left; font-weight: 600; padding-left: 30px; margin-bottom: 10px;}
-.contents_area>div>ul>li{padding-left: 10px; background: url(../img/blt01.gif) no-repeat left 10px; letter-spacing: 0;}
+.contents_area>div>ul>li{padding-left: 10px; background: url(../img/blt01.gif) no-repeat left 10px; letter-spacing: 0; margin: 5px 0;}
 
 
 .footer_link{background: url(../img/index_common/footer_conbg.gif) repeat-x; width: 100%; height: 40px;}
