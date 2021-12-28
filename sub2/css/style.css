@@ -1,5 +1,5 @@
 @charset "utf-8";
-body{font-family:Noto sans KR sans-serif; letter-spacing: -1px; font-size: 16px;}
+body{font-family:Noto sans KR sans-serif; letter-spacing: -1px;}
 a{color: #161616;}
 .container{width: 1250px; margin: 0 auto; position: relative;}
 @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 100;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Thin.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 300;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 400;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 500;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 700;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');} @font-face {font-family: 'Noto Sans KR';font-style: normal;font-weight: 900;src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff2) format('woff2'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.woff) format('woff'),url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Black.otf) format('opentype');} body, h1, h2, h3, h4, h5, h6, input, textarea, select { font-family: 'Noto Sans KR', sans-serif; }
@@ -34,7 +34,7 @@ a{color: #161616;}
 .nav_gnb>li:hover{background: url(../img/index_common/gnb_blt.png) no-repeat center bottom;}
 .nav_gnb>li:hover>a{color: #253981;}
 .nav_gnb>li>.gnb_sub{position: absolute; width: 100%; top: 57px; display: none; border-right: 1px solid #d5d5d5; background-color: #f3f4f8;}
-.nav_gnb>li>.gnb_sub>li{margin-bottom: 6px; text-align: left; }
+.nav_gnb>li>.gnb_sub>li{margin-bottom: 6px; text-align: left; line-height: 150%;}
 .nav_gnb>li>.gnb_sub>li:first-child{margin-top: 20px;}
 .nav_gnb>li>.gnb_sub>li:hover>a{color: #253981;}
 .nav_gnb>li>.gnb_sub>li>a{position: relative; display: inline-block; font-size: 15px; font-weight: 400; text-align: left; text-indent: 5px;}
@@ -44,7 +44,7 @@ a{color: #161616;}
 
 /* SIDEMENU  */
 
-.smenu{width: 240px; float: left; box-sizing: border-box;}
+.smenu{width: 240px; float: left; box-sizing: border-box; font-size: 16px;}
 .smenu h2{ background: url(../img/sub_common/side_bg.gif) no-repeat; padding-top: 80px; text-align: center; font-size: 26px; position: relative; top: 0; left: 0; color: #fff; font-weight: 500; padding-bottom: 10px;}
 .smenu h2 i{background: url(../img/h2_icon02.png) no-repeat; width: 46px; height: 50px; position: absolute; top: 40px; left: 50%; text-align: center; margin: 0 auto; transform: translate(-50%,-50%);}
 .smenu>ul{width: 100%;}
@@ -56,7 +56,7 @@ a{color: #161616;}
 .smenu>ul>li>ul>li>a{color: #555; font-weight: 500; display: block; padding: 6px 16px 6px 16px; line-height: 16px;}
 .smenu>ul>li>ul>.f_txt>a{color: #006bb7; background: url(../img/sub_common/3det_blt.png) no-repeat 0;}
 
-.contents{padding-bottom: 60px;}
+.contents{padding-bottom: 60px; font-size: 16px;}
 .contents::after{content: ""; display: block; clear: both;}
 .contents_header{width: 970px; float: right; overflow: hidden; margin-top: 20px; font-weight: 500; border-bottom: 1px solid #e0e0e0; padding-bottom: 20px;}
 .contents_header::after{content: ""; display: block; clear: both;}
@@ -69,7 +69,7 @@ a{color: #161616;}
 .header_location ul li:last-child a::after{background: none;}
 
 
-.contents_area{width: 970px; float: right; margin-bottom: 40px; padding-top: 40px; overflow: hidden;}
+.contents_area{width: 970px; float: right; margin-bottom: 40px; padding-top: 40px; overflow: hidden; font-size: 16px;}
 .contents_area::after{content: ""; display: block; clear: both;}
 .contents_area>div{margin-bottom: 50px;}
 .contents_area .type3 .type_icon ol{width: 100%; display: inline-block;}

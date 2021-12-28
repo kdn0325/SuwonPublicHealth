@@ -34,7 +34,7 @@ a{color: #161616;}
 .nav_gnb>li:hover{background: url(../img/index_common/gnb_blt.png) no-repeat center bottom;}
 .nav_gnb>li:hover>a{color: #253981;}
 .nav_gnb>li>.gnb_sub{position: absolute; width: 100%; top: 57px; display: none; border-right: 1px solid #d5d5d5; background-color: #f3f4f8;}
-.nav_gnb>li>.gnb_sub>li{margin-bottom: 6px; text-align: left; }
+.nav_gnb>li>.gnb_sub>li{margin-bottom: 6px; text-align: left; line-height: 150%;}
 .nav_gnb>li>.gnb_sub>li:first-child{margin-top: 20px;}
 .nav_gnb>li>.gnb_sub>li:hover>a{color: #253981;}
 .nav_gnb>li>.gnb_sub>li>a{position: relative; display: inline-block; font-size: 15px; font-weight: 400; text-align: left; text-indent: 5px;}
