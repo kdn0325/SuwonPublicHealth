@@ -44,7 +44,7 @@ a{color: #161616;}
 
 /* SIDEMENU  */
 
-.smenu{width: 240px; float: left; box-sizing: border-box;}
+.smenu{width: 240px; float: left; box-sizing: border-box; font-size: 16px;}
 .smenu h2{ background: url(../img/sub_common/side_bg.gif) no-repeat; padding-top: 80px; text-align: center; font-size: 26px; position: relative; top: 0; left: 0; color: #fff; font-weight: 500; padding-bottom: 10px;}
 .smenu h2 i{background: url(../img/h2_icon02.png) no-repeat; width: 46px; height: 50px; position: absolute; top: 40px; left: 50%; text-align: center; margin: 0 auto; transform: translate(-50%,-50%);}
 .smenu>ul{width: 100%;}
@@ -56,7 +56,7 @@ a{color: #161616;}
 .smenu>ul>li>ul>li>a{color: #555; font-weight: 500; display: block; padding: 6px 16px 6px 16px; line-height: 16px;}
 .smenu>ul>li>ul>.f_txt>a{color: #006bb7; background: url(../img/sub_common/3det_blt.png) no-repeat 0;}
 
-.contents{padding-bottom: 60px;}
+.contents{padding-bottom: 60px; font-size: 16px;} 
 .contents::after{content: ""; display: block; clear: both;}
 .contents_header{width: 970px; float: right; overflow: hidden; margin-top: 20px; font-weight: 500; border-bottom: 1px solid #e0e0e0; padding-bottom: 20px;}
 .contents_header::after{content: ""; display: block; clear: both;}
@@ -71,23 +71,13 @@ a{color: #161616;}
 
 .contents_area{width: 970px; float: right; margin-bottom: 40px; padding-top: 40px; overflow: hidden;}
 .contents_area::after{content: ""; display: block; clear: both;}
-.contents_area>div{margin-bottom: 50px;}
-.contents_area .type3 .type_icon ol{width: 100%; display: inline-block;}
-.contents_area .type3 .type_icon li{float: left; width: 30%; padding-left: 30px; text-align: center; background: url(../img/step_arrow.png) no-repeat 10px 50%;}
-.contents_area .type3 .type_icon li:first-child{background: none;}
-.contents_area .type3 .type_icon li dl{height: 210px; border: 1px solid #dbdbdb}
-.contents_area .type3 .type_icon li dl dt{width: 80px; background: #006bb7; border-radius: 5px; margin: 20px auto 25px auto; font-size: 15px; color: #fff;}
-.contents_area .type3 .type_icon li dl .icon1{background: url(../img/step_ico01.png) no-repeat 50% 10px;}
-.contents_area .type3 .type_icon li dl .icon2{background: url(../img/step_ico02.png) no-repeat 50% 10px;}
-.contents_area .type3 .type_icon li dl .icon3{background: url(../img/step_ico03.png) no-repeat 50% 10px;}
-.contents_area .type3 .type_icon li dl dd{padding-top: 100px; line-height: 23px; margin: 0 auto; font-weight: 500;}
-.contents_area .type4 ul>li>ul{margin-top: 10px; margin-bottom: 15px;}
-.contents_area .type4 ul>li>ul>li{margin: 5px 0; padding-left: 10px; background: url(../img/blt03.gif) no-repeat left 13px;}
-.contents_area .type6 ul.call{width: 100%; border: dashed 3px #dedede; display: inline-block;  padding: 20px 10px; margin-top: 50px; box-sizing: border-box;}
-.contents_area .type6 ul.call li{float: left; background: none; color: #006bb7; letter-spacing: -1px;}
-.contents_area .type6 ul.call li span{background: url(../img/call_ico.png) no-repeat left; padding-left: 30px; margin-right: 5px; color: #222;}
-.contents_area>div>h4{display: block; color: #333; background: url(../img/h4_bulit.png) no-repeat left 10px; font-size: 21px; text-align: left; font-weight: 600; padding-left: 30px; margin-bottom: 10px;}
-.contents_area>div>ul>li{padding-left: 10px; background: url(../img/blt01.gif) no-repeat left 10px; letter-spacing: 0; margin: 5px 0; }
+.contents_area .content_info{width: 100%; margin-bottom: 40px; border: 1px dashed #b6b6b6; padding: 20px; box-sizing: border-box;}
+.contents_area .content_info .title_box{padding: 30px 0px 30px 230px; background: url(../img/cimg_icon18.png) no-repeat 20px center;}
+.contents_area .content_info .title_box h4{color:#47689e; font-size: 26px; font-weight: 600; letter-spacing: -2px; margin-bottom: 10px; line-height: 120%;}
+.contents_area .content_info .box_txt1 p{line-height: 150%}
+.contents_area .content_info .box_txt2{margin-top: 30px;}
+.contents_area .content_info .box_txt2 a{background:#2d8748; width: 100px; height: 50px; padding: 10px 30px; color: #fff; text-align: center;}
+.contents_area h4{color:#333; background: url(../img/h4_bulit.png) no-repeat left 10px; font-weight: 600; font-size: 21px; padding-left: 30px;}
 
 
 .footer_link{background: url(../img/index_common/footer_conbg.gif) repeat-x; width: 100%; height: 40px;}
