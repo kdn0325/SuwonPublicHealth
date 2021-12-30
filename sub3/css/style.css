@@ -78,8 +78,8 @@ a{color: #161616;}
 .contents_area .content_info .box_txt2{margin-top: 30px;}
 .contents_area .content_info .box_txt2 a{background:#2d8748; width: 100px; height: 50px; padding: 10px 30px; color: #fff; text-align: center;}
 .contents_area h4{color:#333; background: url(../img/h4_bulit.png) no-repeat left 10px; font-weight: 600; font-size: 21px; padding-left: 30px;}
-
-
+.contents_area .health_table1{width: 100%; border: 1px solid #e0e0e0; margin-bottom: 50px;}
+.contents_area .health_table1 thead th{border:1px solid #e0e0e0; padding: 15px 5px; text-align: center; background: #eef6ff; border-top: 1px solid #111}
 .footer_link{background: url(../img/index_common/footer_conbg.gif) repeat-x; width: 100%; height: 40px;}
 .footer_link::after{content: ""; display: block; clear: both;}
 .link_txt{height: 40px;}
