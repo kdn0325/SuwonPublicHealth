@@ -29,8 +29,8 @@ a{color: #161616;}
 /* NAV */
 .nav_gnb{height: 57px; padding-top: 55px; }
 .nav_gnb>li{float: left; position: relative; padding: 19px 0; width: 208px; text-align: center;}
-.nav_gnb::after{content: ""; display: block; clear: both;}
-.nav_gnb>li>a{display: block; font-size: 21px; line-height: 18px; font-weight: 500; color: #161616;}
+.nav_gnb::after{content: ""; display: block; clear: both; display: table;}
+.nav_gnb>li>a{display: block; font-size: 21px; line-height: 18px; font-weight: 500; color: #161616; border-right:1px solid #e0e0e0;}
 .nav_gnb>li:hover{background: url(../img/index_common/gnb_blt.png) no-repeat center bottom;}
 .nav_gnb>li:hover>a{color: #253981;}
 .nav_gnb>li>.gnb_sub{position: absolute; width: 100%; top: 57px; display: none; border-right: 1px solid #d5d5d5; background-color: #f3f4f8;}
@@ -46,7 +46,7 @@ a{color: #161616;}
 
 .smenu{width: 240px; float: left; box-sizing: border-box; font-size: 16px;}
 .smenu h2{ background: url(../img/sub_common/side_bg.gif) no-repeat; padding-top: 80px; text-align: center; font-size: 26px; position: relative; top: 0; left: 0; color: #fff; font-weight: 500; padding-bottom: 10px;}
-.smenu h2 i{background: url(../img/h2_icon02.png) no-repeat; width: 46px; height: 50px; position: absolute; top: 40px; left: 50%; text-align: center; margin: 0 auto; transform: translate(-50%,-50%);}
+.smenu h2 i{background: url(../img/h2_icon03.png) no-repeat; width: 50px; height: 50px; position: absolute; top: 50px; left: 50%; text-align: center; margin: 0 auto; transform: translate(-50%,-50%);}
 .smenu>ul{width: 100%;}
 .smenu>ul>li{width: 100%; margin-bottom: 3px; }
 .smenu>ul>.active>a{border: 1px solid #5d5d5d; color: #fff; background: #5d5d5d url(../img/sub_common/side_blt.png) no-repeat 200px;}
@@ -61,7 +61,6 @@ a{color: #161616;}
 .contents_header{width: 970px; float: right; overflow: hidden; margin-top: 20px; font-weight: 500; border-bottom: 1px solid #e0e0e0; padding-bottom: 20px;}
 .contents_header::after{content: ""; display: block; clear: both;}
 .contents_header .header_title h3{font-size: 40px; font-weight: 500; letter-spacing: -2px;}
-.contents_header .header_location{}
 .header_location ul li{float: left;}
 .header_location ul li .home{background: url(../img/sub_common/icon_home.png) no-repeat 0 3px; width: 19px; height: 27px;}
 .header_location ul li a{display: inline-block; padding: 0 10px; color: #5d5d5d;}
@@ -69,17 +68,23 @@ a{color: #161616;}
 .header_location ul li:last-child a::after{background: none;}
 
 
-.contents_area{width: 970px; float: right; margin-bottom: 40px; padding-top: 40px; overflow: hidden;}
+.contents_area{width: 970px; float: right; margin-bottom: 40px; padding-top: 40px; overflow: hidden; font-size: 16px;}
 .contents_area::after{content: ""; display: block; clear: both;}
 .contents_area .content_info{width: 100%; margin-bottom: 40px; border: 1px dashed #b6b6b6; padding: 20px; box-sizing: border-box;}
 .contents_area .content_info .title_box{padding: 30px 0px 30px 230px; background: url(../img/cimg_icon18.png) no-repeat 20px center;}
 .contents_area .content_info .title_box h4{color:#47689e; font-size: 26px; font-weight: 600; letter-spacing: -2px; margin-bottom: 10px; line-height: 120%;}
 .contents_area .content_info .box_txt1 p{line-height: 150%}
 .contents_area .content_info .box_txt2{margin-top: 30px;}
-.contents_area .content_info .box_txt2 a{background:#2d8748; width: 100px; height: 50px; padding: 10px 30px; color: #fff; text-align: center;}
-.contents_area h4{color:#333; background: url(../img/h4_bulit.png) no-repeat left 10px; font-weight: 600; font-size: 21px; padding-left: 30px;}
-.contents_area .health_table1{width: 100%; border: 1px solid #e0e0e0; margin-bottom: 50px;}
-.contents_area .health_table1 thead th{border:1px solid #e0e0e0; padding: 15px 5px; text-align: center; background: #eef6ff; border-top: 1px solid #111}
+.contents_area .content_info .box_txt2 a{background:#2d8748; width: 100px; height: 50px; padding: 10px 30px; color: #fff; text-align: center; }
+.contents_area h4{color:#333; background: url(../img/h4_bulit.png) no-repeat left 10px; font-weight: 600; font-size: 21px; padding-left: 30px; margin-bottom: 10px;}
+.contents_area .health_table{width: 100%; border-left: 1px solid #e0e0e0;  margin-bottom: 50px; font-size: 16px; box-sizing: border-box; border-collapse: collapse;}
+.contents_area .health_table th{font-weight: 400;}
+.contents_area .health_table thead tr th{border-bottom:1px solid #e0e0e0; padding: 15px 5px; text-align: center; background: #eef6ff; border-top: 1px solid #111; border-right: 1px solid #e0e0e0;}
+.contents_area .health_table tbody th{background:#f9f9f9; border-right: 1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; padding: 10px 5px;}
+.contents_area .health_table tbody td{border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; padding: 10px 5px; text-align: center;}
+.contents_area .health_table tbody td.last{text-align: left; padding: 14px 10px;}
+
+
 .footer_link{background: url(../img/index_common/footer_conbg.gif) repeat-x; width: 100%; height: 40px;}
 .footer_link::after{content: ""; display: block; clear: both;}
 .link_txt{height: 40px;}
