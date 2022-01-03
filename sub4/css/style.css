@@ -46,7 +46,7 @@ a{color: #161616;}
 
 .smenu{width: 240px; float: left; box-sizing: border-box; font-size: 16px;}
 .smenu h2{ background: url(../img/sub_common/side_bg.gif) no-repeat; padding-top: 80px; text-align: center; font-size: 26px; position: relative; top: 0; left: 0; color: #fff; font-weight: 500; padding-bottom: 10px;}
-.smenu h2 i{background: url(../img/h2_icon03.png) no-repeat; width: 50px; height: 50px; position: absolute; top: 50px; left: 50%; text-align: center; margin: 0 auto; transform: translate(-50%,-50%);}
+.smenu h2 i{background: url(../img/h2_icon04.png) no-repeat; width: 30px; height: 50px; position: absolute; top: 50px; left: 50%; text-align: center; margin: 0 auto; transform: translate(-50%,-50%);}
 .smenu>ul{width: 100%;}
 .smenu>ul>li{width: 100%; margin-bottom: 3px; }
 .smenu>ul>.active>a{border: 1px solid #5d5d5d; color: #fff; background: #5d5d5d url(../img/sub_common/side_blt.png) no-repeat 200px;}
@@ -70,19 +70,16 @@ a{color: #161616;}
 
 .contents_area{width: 970px; float: right; margin-bottom: 40px; padding-top: 40px; overflow: hidden; font-size: 16px;}
 .contents_area::after{content: ""; display: block; clear: both;}
-.contents_area .content_info{width: 100%; margin-bottom: 40px; border: 1px dashed #b6b6b6; padding: 20px; box-sizing: border-box;}
-.contents_area .content_info .title_box{padding: 30px 0px 30px 230px; background: url(../img/cimg_icon18.png) no-repeat 20px center;}
-.contents_area .content_info .title_box h4{color:#47689e; font-size: 26px; font-weight: 600; letter-spacing: -2px; margin-bottom: 10px; line-height: 120%;}
-.contents_area .content_info .box_txt1 p{line-height: 150%}
-.contents_area .content_info .box_txt2{margin-top: 30px;}
-.contents_area .content_info .box_txt2 a{background:#2d8748; width: 100px; height: 50px; padding: 10px 30px; color: #fff; text-align: center; }
-.contents_area h4{color:#333; background: url(../img/h4_bulit.png) no-repeat left 10px; font-weight: 600; font-size: 21px; padding-left: 30px; margin-bottom: 10px;}
-.contents_area .health_table{width: 100%; border-left: 1px solid #e0e0e0;  margin-bottom: 50px; font-size: 16px; box-sizing: border-box; border-collapse: collapse;}
-.contents_area .health_table th{font-weight: 400;}
-.contents_area .health_table thead tr th{border-bottom:1px solid #e0e0e0; padding: 15px 5px; text-align: center; background: #eef6ff; border-top: 1px solid #111; border-right: 1px solid #e0e0e0;}
-.contents_area .health_table tbody th{background:#f9f9f9; border-right: 1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; padding: 10px 5px;}
-.contents_area .health_table tbody td{border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; padding: 10px 5px; text-align: center;}
-.contents_area .health_table tbody td.last{text-align: left; padding: 14px 10px;}
+.contents_area>div{margin-bottom: 50px;}
+.contents_area>div ul>li>span{color:#222 ;font-weight: 500;}
+.contents_area>div>ul>li{padding-left: 12px; background: url(../img/blt01.gif) no-repeat left 10px; letter-spacing: 0; margin: 5px 0; }
+.contents_area .type3 ul>li>ul{margin: 5px 0 15px 0;}
+.contents_area .type3 ul>li>ul>li{padding-left: 15px; background: url(../img/blt03.gif)no-repeat left ; margin: 4px 0;}
+.contents_area .type4 ul.call{width: 100%; border: dashed 3px #dedede; display: inline-block;  padding: 20px 10px; margin-top: 50px; box-sizing: border-box;}
+.contents_area .type4 ul.call li{float: left; background: none; color: #006bb7; letter-spacing: -1px;}
+.contents_area .type4 ul.call li span{background: url(../img/call_ico.png) no-repeat left; padding-left: 30px; margin-right: 5px; color: #222;}
+.contents_area>div>h4{display: block; color: #333; background: url(../img/h4_bulit.png) no-repeat left 10px; font-size: 21px; text-align: left; font-weight: 600; padding-left: 30px; margin-bottom: 10px;}
+
 
 
 .footer_link{background: url(../img/index_common/footer_conbg.gif) repeat-x; width: 100%; height: 40px;}
