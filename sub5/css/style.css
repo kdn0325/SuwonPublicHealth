@@ -70,12 +70,11 @@ a{color: #161616;}
 
 .contents_area{width: 970px; float: right; margin-bottom: 40px; padding-top: 40px; overflow: hidden; font-size: 16px;}
 .contents_area::after{content: ""; display: block; clear: both;}
-.contents_area .content_info{width: 100%; margin-bottom: 40px; border: 1px dashed #b6b6b6; padding: 20px; box-sizing: border-box;}
-.contents_area .content_info .title_box{padding: 30px 0px 30px 230px; background: url(../img/cimg_icon18.png) no-repeat 20px center;}
-.contents_area .content_info .title_box h4{color:#47689e; font-size: 26px; font-weight: 600; letter-spacing: -2px; margin-bottom: 10px; line-height: 120%;}
-.contents_area .content_info .box_txt1 p{line-height: 150%}
-.contents_area .content_info .box_txt2{margin-top: 30px;}
-.contents_area .content_info .box_txt2 a{background:#2d8748; width: 100px; height: 50px; padding: 10px 30px; color: #fff; text-align: center; }
+.contents_area .title_box{width: 100%; margin: 0 0 40px 0px;}
+.contents_area .title_box::after{content: ""; clear: both; display: block;}
+.contents_area .title_box ul{width: 100%; height: auto; background: #f8f8f8; border-bottom: 1px solid #111; border-right: 1px solid #d4d4d4;}
+.contents_area .title_box ul>li{background: #f8f8f8; float: left; border-top: 1px solid #d4d4d4; border-left: 1px solid #d4d4d4; padding: 0 40px;}
+.contents_area .title_box ul>li>a{height: 55px; line-height: 55px; display: block;}
 .contents_area h4{color:#333; background: url(../img/h4_bulit.png) no-repeat left 10px; font-weight: 600; font-size: 21px; padding-left: 30px; margin-bottom: 10px;}
 .contents_area .health_table{width: 100%; border-left: 1px solid #e0e0e0;  margin-bottom: 50px; font-size: 16px; box-sizing: border-box; border-collapse: collapse;}
 .contents_area .health_table th{font-weight: 400;}
