@@ -72,17 +72,23 @@ a{color: #161616;}
 .contents_area::after{content: ""; display: block; clear: both;}
 .contents_area .title_box{width: 100%; margin: 0 0 40px 0px;}
 .contents_area .title_box::after{content: ""; clear: both; display: block;}
-.contents_area .title_box ul{width: 100%; height: auto; background: #f8f8f8; border-bottom: 1px solid #111; border-right: 1px solid #d4d4d4;}
-.contents_area .title_box ul>li{background: #f8f8f8; float: left; border-top: 1px solid #d4d4d4; border-left: 1px solid #d4d4d4; padding: 0 40px;}
+.contents_area .title_box ul{display: table; width: 100%; height: auto; background: #f8f8f8; border-bottom: 1px solid #111; border-right: 1px solid #d4d4d4; border-top: 1px solid #d4d4d4;  border-collapse: collapse;}
+.contents_area .title_box ul>li{background: #f8f8f8; float: left; border-left: 1px solid #d4d4d4; padding: 0 40px;}
+.contents_area .title_box ul>li:last-child{border-right: 1px solid #d4d4d4;}
 .contents_area .title_box ul>li>a{height: 55px; line-height: 55px; display: block;}
 .contents_area h4{color:#333; background: url(../img/h4_bulit.png) no-repeat left 10px; font-weight: 600; font-size: 21px; padding-left: 30px; margin-bottom: 10px;}
 .contents_area .health_table{width: 100%; border-left: 1px solid #e0e0e0;  margin-bottom: 50px; font-size: 16px; box-sizing: border-box; border-collapse: collapse;}
-.contents_area .health_table th{font-weight: 400;}
-.contents_area .health_table thead tr th{border-bottom:1px solid #e0e0e0; padding: 15px 5px; text-align: center; background: #eef6ff; border-top: 1px solid #111; border-right: 1px solid #e0e0e0;}
-.contents_area .health_table tbody th{background:#f9f9f9; border-right: 1px solid #e0e0e0; border-bottom:1px solid #e0e0e0; padding: 10px 5px;}
+.contents_area .health_table th{font-weight: 400; background: #f9f9f9; border-right: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0;}
+.contents_area .health_table tbody{border-top: 1px solid #111;}
+.contents_area .health_table tbody td ul{text-align: left; padding: 15px 10px;}
+.contents_area .health_table tbody td ul>li{padding-left: 10px; background: url(../img/blt01.gif) no-repeat left;}
 .contents_area .health_table tbody td{border-bottom: 1px solid #e0e0e0; border-right: 1px solid #e0e0e0; padding: 10px 5px; text-align: center;}
 .contents_area .health_table tbody td.last{text-align: left; padding: 14px 10px;}
 
+.contents_area>div ul>li>span{color:#222 ;font-weight: 500;}
+.contents_area .type ul.call{width: 100%; border: dashed 3px #dedede; display: inline-block;  padding: 20px 10px; margin-top: 50px; box-sizing: border-box;}
+.contents_area .type ul.call li{letter-spacing: 0; margin: 5px 0; padding-left: 12px;  float: left; background: none; color: #006bb7; letter-spacing: -1px;}
+.contents_area .type ul.call li span{background: url(../img/call_ico.png) no-repeat left; padding-left: 30px; margin-right: 5px; color: #222;}
 
 .footer_link{background: url(../img/index_common/footer_conbg.gif) repeat-x; width: 100%; height: 40px;}
 .footer_link::after{content: ""; display: block; clear: both;}
