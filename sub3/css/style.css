@@ -76,6 +76,7 @@ a{color: #161616;}
 .contents_area .content_info .box_txt1 p{line-height: 150%}
 .contents_area .content_info .box_txt2{margin-top: 30px;}
 .contents_area .content_info .box_txt2 a{background:#2d8748; width: 100px; height: 50px; padding: 10px 30px; color: #fff; text-align: center; }
+.contents_area .content_info .box_txt2 a:hover{border: 1px solid #2d8748; background: #fff; color: #2d8748;}
 .contents_area h4{color:#333; background: url(../img/h4_bulit.png) no-repeat left 10px; font-weight: 600; font-size: 21px; padding-left: 30px; margin-bottom: 10px;}
 .contents_area .health_table{width: 100%; border-left: 1px solid #e0e0e0;  margin-bottom: 50px; font-size: 16px; box-sizing: border-box; border-collapse: collapse;}
 .contents_area .health_table th{font-weight: 400;}

@@ -27,7 +27,7 @@ a{color: #161616;}
 .sub_top::after{content: ""; display: block; clear: both;}
 
 /* NAV */
-.nav_gnb{height: 57px; padding-top: 55px; }
+.nav_gnb{height: 57px; padding-top: 55px; word-break: keep-all;}
 .nav_gnb>li{float: left; position: relative; padding: 19px 0; width: 208px; text-align: center;}
 .nav_gnb::after{content: ""; display: block; clear: both;}
 .nav_gnb>li>a{display: block; font-size: 21px; line-height: 18px; font-weight: 500; color: #161616;}
