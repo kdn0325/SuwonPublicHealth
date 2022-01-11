@@ -1,6 +1,4 @@
-# 수원시보건소
-
-# SuwonPublicHealth(Clone) for DeskTop
+# 수원시보건소(Clone) for DeskTop
 
 - 관공서 웹사이트를 통해 웹 사이트를 이해하고 HTML,CSS,JQuery를 학습하고 Bxslider를 사용하여 이미지 슬라이드를 제작한 적응형 데스크톱 웹사이트입니다.  (서브페이지까지 제작완료) 
 
