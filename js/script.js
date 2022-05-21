@@ -34,6 +34,9 @@ sidemenu.click(function(){
 
 })
 
+
+/*  bxslider 옵션 */
+
 $('.bxslider1').bxSlider({
     auto: true,
     autoControls: true,
@@ -49,6 +52,8 @@ $('.bxslider2').bxSlider({
     slideWidth: 381,
     mode:'fade'
   });
+
+/*  탭 메뉴 클릭 오버 */
 
 var tabmenu = $('.tab ul li')
 var health_tab= $('.health_tab>div')
