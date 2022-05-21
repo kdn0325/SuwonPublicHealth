@@ -33,3 +33,33 @@ sidemenu.click(function(){
     sidesub.eq(i).css({display:'block'})
 
 })
+
+$('.bxslider1').bxSlider({
+    auto: true,
+    autoControls: true,
+    stopAutoOnClick: true,
+    pager: true,
+    slideWidth: 568
+  });
+$('.bxslider2').bxSlider({
+    auto: true,
+    autoControls: true,
+    stopAutoOnClick: true,
+    pager: true,
+    slideWidth: 381,
+    mode:'fade'
+  });
+
+var tabmenu = $('.tab ul li')
+var health_tab= $('.health_tab>div')
+
+tabmenu.click(function(){
+    var tg = $(this)
+    var i = tg.index()
+
+    tabmenu.removeClass('active')
+    tg.addClass('active')
+
+    health_tab.css({display:'none'})
+    health_tab.eq(i).css({display:'block'})
+})
