@@ -6,7 +6,7 @@
 ##
 
 <details>
-<summary><span style="color:red">&#9658;코드 리뷰 보기</span></summary>
+<summary><span style="color:red">&#128293; 클릭 하시면 느낀점 리뷰를 보실 수 있습니다. &#128591;</span></summary>
 <div markdown="1">       
   
 수원시 보건소 관공서 웹은 KT-alpha 홈페이지를 퍼블리싱 한 이후에 다시 한번 스스로 정리하고 제이 쿼리의 기본 기능 , IE 크로스 브라우징을 복습하고 Float정렬과 clearfix를 다시 한번 복습할 수 있었습니다
